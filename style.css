@@ -1,0 +1,71 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "poppins",sans-serif;
+
+}
+body{
+      display: grid;
+      place-items: center;
+      min-height: 100vh;
+      background-color: #1d1e22;
+}
+:root{
+      --boxshadowinset: inset 5px 5px 7px #0c0c0e ,
+      inset -5px -5px 7px #2e3036;
+      --boxshadow: 5px 5px 7px #0c0c0e,
+      -5px -5px 7px #2e3036;
+
+}
+form{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding: 30px 50px 50px 50px; 
+      border-radius: 8px;
+      box-shadow:  var(--boxshadowinset) 
+}
+header{
+      color: white;
+      text-align: center;
+      font-size: 25px;
+      padding: 25px;
+}
+input{
+      padding: 10px;
+      background-color: transparent;
+      border: none;
+      outline: none;
+      color: white;
+      border: 4px;
+      box-shadow: var(--boxshadow);
+      transition: .2s;
+}
+input:focus{
+      box-shadow: var(--boxshadowinset);
+}
+button{
+      padding: 10px;
+      border: none;
+      background-color: transparent;
+      color: white;
+      border-radius: 4px;
+      cursor: pointer;
+      box-shadow: var(--boxshadow);
+
+}
+.Forgot{
+      text-align: center;
+      color: white;
+      font-size: 12px;
+}
+.Forgot a{
+      color: aquamarine;
+}
+h1,h5{
+      color: aliceblue;
+}
+#result{
+      color: aqua;
+}
